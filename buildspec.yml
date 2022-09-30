@@ -38,13 +38,14 @@ phases:
     commands:
       # - command
       echo $CODEBUILD_SRC_DIR
+      echo $CODEBUILD_TRG_DIR
       mkdir target
       mvn clean package -Dmaven.test.skip=true 
       
       
   #post_build:
     #commands:
-       # - ls resthello/
+       - ls -ltr
       # - command
 #reports:
   #report-name-or-arn:
