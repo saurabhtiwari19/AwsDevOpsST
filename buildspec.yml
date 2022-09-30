@@ -43,8 +43,8 @@ phases:
       mvn clean package -Dmaven.test.skip=true 
       
       
-  #post_build:
-    #commands:
+  post_build:
+    commands:
        - ls -ltr
       # - command
 #reports:
