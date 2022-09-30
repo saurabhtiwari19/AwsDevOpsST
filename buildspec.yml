@@ -37,8 +37,8 @@ phases:
   build:
     commands:
       # - command
-      result =${mvn clean package -Dmaven.test.skip=true }
-      echo result
+      - result =${mvn clean package -Dmaven.test.skip=true}
+      - echo $result
       
       
   post_build:
