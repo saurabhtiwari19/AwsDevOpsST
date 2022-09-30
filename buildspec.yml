@@ -37,10 +37,8 @@ phases:
   build:
     commands:
       # - command
-      echo $CODEBUILD_SRC_DIR
-      echo $CODEBUILD_TRG_DIR
-      mkdir target
-      mvn clean package -Dmaven.test.skip=true 
+      result =${mvn clean package -Dmaven.test.skip=true }
+      echo result
       
       
   post_build:
