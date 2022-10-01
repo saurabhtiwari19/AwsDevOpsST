@@ -38,13 +38,13 @@ phases:
     commands:
       # - command
       - echo Build completed on `date`
-      - builStatus=$(mvn package)
-      - echo $builStatus
+      - mvn package
+     
       
       
   post_build:
     commands:
-       - ls
+       # - ls
       # - command
 #reports:
   #report-name-or-arn:
@@ -59,7 +59,7 @@ artifacts:
     - target/resthello-0.0.1-SNAPSHOT.war
     # - location
   #name: $(date +%Y-%m-%d)
-  #discard-paths: yes
+  discard-paths: yes
   #base-directory: location
 #cache:
   #paths:
