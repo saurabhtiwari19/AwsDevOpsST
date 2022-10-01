@@ -38,13 +38,13 @@ phases:
     commands:
       # - command
       - echo Build completed on `date`
-      - buildStatus=$(mvn package)
-      - echo $buildStatus
+      - builStatus=$(mvn package)
+      - echo $builStatus
       
       
   post_build:
     commands:
-       - ls -ltr
+       - ls
       # - command
 #reports:
   #report-name-or-arn:
