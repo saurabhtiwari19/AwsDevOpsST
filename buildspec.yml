@@ -38,14 +38,14 @@ phases:
     commands:
       # - command
       - echo Build completed on `date`
-      - mvn package
+      - mvn clean install -Dmaven.test.skip=true
      
       
       
   post_build:
     commands:
        # - ls
-      # - command
+      # - command 
 #reports:
   #report-name-or-arn:
     #files:
