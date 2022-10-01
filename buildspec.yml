@@ -38,7 +38,7 @@ phases:
     commands:
       # - command
       - echo Build completed on `date`
-      - mvn package
+      - mvn clean install
      
       
       
