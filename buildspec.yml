@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-     JAVA_HOME: "/usr/lib/jvm/java-8-amazon-corretto/"
+     #JAVA_HOME: "/usr/lib/jvm/java-8-amazon-corretto/"
      # key: "value"
      # key: "value"
   #parameter-store:
