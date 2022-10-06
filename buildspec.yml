@@ -60,6 +60,7 @@ phases:
 artifacts:
   files:
     - target/resthello-0.0.1-SNAPSHOT.war
+    - appspec.yml
     # - location
   #name: $(date +%Y-%m-%d)
   discard-paths: yes
