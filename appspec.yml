@@ -5,8 +5,6 @@ os: linux
 files:
   - source: .
     destination: /home/ec2-user/apache-tomcat-8.5.82/webapps
-  - source:
-    destination:
 permissions:
   - object:
     pattern:
