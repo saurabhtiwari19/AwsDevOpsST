@@ -3,7 +3,7 @@
 version: 0.0
 os: linux 
 files:
-  - source: .
+  - source: /
     destination: /home/ec2-user/apache-tomcat-8.5.82/webapps
 permissions:
   - object:
