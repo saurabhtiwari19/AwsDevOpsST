@@ -5,20 +5,6 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/apache-tomcat-8.5.82/webapps
-permissions:
-  - object:
-    pattern:
-    except:
-    owner:
-    group:
-    mode: 
-    acls:
-      -
-    context:
-      user:
-      type:
-      range:
-    type:
 hooks:
  ApplicationStop:
     - location: /home/ec2-user/apache-tomcat-8.5.82/bin/shutdown.sh
