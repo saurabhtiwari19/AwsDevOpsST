@@ -5,12 +5,3 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/apache-tomcat-8.5.82/webapps
-hooks:
- ApplicationStop:
-    - location: /home/ec2-user/apache-tomcat-8.5.82/bin/shutdown.sh
-      timeout: 20
-      runas: ec2-user
- ApplicationStart:
-    - location: /home/ec2-user/apache-tomcat-8.5.82/bin/startup.sh
-      timeout: 20
-      runas: ec2-user
