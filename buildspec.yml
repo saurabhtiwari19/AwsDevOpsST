@@ -48,7 +48,7 @@ phases:
   post_build:
     commands:
         - pwd
-        zip tiwari target/resthello-0.0.1-SNAPSHOT.war
+        - zip tiwari target/resthello-0.0.1-SNAPSHOT.war
        # - command 
 #reports:
   #report-name-or-arn:
