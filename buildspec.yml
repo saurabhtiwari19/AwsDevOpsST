@@ -48,6 +48,7 @@ phases:
   post_build:
     commands:
         - pwd
+        - ls
         - zip tiwari target/resthello-0.0.1-SNAPSHOT.war
        # - command 
 #reports:
@@ -62,6 +63,7 @@ artifacts:
   files:
     - target/resthello-0.0.1-SNAPSHOT.war
     - appspec.yml
+    - tiwari.zip
     # - location
   #name: $(date +%Y-%m-%d)
   discard-paths: yes
