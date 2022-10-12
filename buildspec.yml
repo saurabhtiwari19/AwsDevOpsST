@@ -49,7 +49,7 @@ phases:
     commands:
         - pwd
         - cd target
-        - zip resthello-0.0.1-SNAPSHOT resthello-0.0.1-SNAPSHOT.war
+        - zip resthello resthello-0.0.1-SNAPSHOT.war
         - ls
        # - command 
 #reports:
