@@ -48,6 +48,7 @@ phases:
   post_build:
     commands:
         - pwd
+        - cp appspec.yml target/
         - cd target
         - zip resthello resthello-0.0.1-SNAPSHOT.war
         - ls
