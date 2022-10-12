@@ -64,7 +64,7 @@ artifacts:
   files:
     - target/resthello-0.0.1-SNAPSHOT.war
     - appspec.yml
-    - resthello.zip
+    - target/resthello.zip
     # - location
   #name: $(date +%Y-%m-%d)
   discard-paths: yes
