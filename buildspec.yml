@@ -50,7 +50,7 @@ phases:
         - pwd
         - cp appspec.yml target/
         - cd target
-        - zip resthello resthello-0.0.1-SNAPSHOT.war
+        - zip resthello resthello-0.0.1-SNAPSHOT.war appspec.yml
         - ls
        # - command 
 #reports:
