@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping("/restHeloo/{name}")
     String hello(@PathVariable String name) {
-        return "Hello!" + name;
+        return "Hello!  " + name;
     }
 
 	/*
